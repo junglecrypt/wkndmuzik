@@ -1,0 +1,29 @@
+.heroimage{
+  height: $hero-image-height;
+  background-size: cover;
+.cq-dd-image {
+  width: 985px;
+  margin: auto;
+  .muzik-HeroImage-wrapper{
+    position: relative;
+    top: 216px;
+    width: 490px;
+    //left: 138px;
+    .cmp-title__text {
+      margin: 0px;
+    }
+    .cmp-text{
+      padding-top: 40px;
+    }
+  }
+}
+}
+.right-align{
+  &.heroimage{
+  .cq-dd-image {
+    .muzik-HeroImage-wrapper{
+      float: right;
+    }
+  }
+  }
+}
