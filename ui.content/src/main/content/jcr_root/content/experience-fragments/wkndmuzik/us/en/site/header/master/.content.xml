@@ -2,6 +2,8 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
+        cq:lastModified="{Date}2020-10-10T20:34:11.369+11:00"
+        cq:lastModifiedBy="admin"
         cq:tags="[]"
         cq:template="/conf/wkndmuzik/settings/wcm/templates/xf-web-variation"
         cq:xfMasterVariation="{Boolean}true"
@@ -13,17 +15,41 @@
             jcr:primaryType="nt:unstructured"
             sling:resourceType="wkndmuzik/components/container"
             layout="simple">
+            <image
+                jcr:created="{Date}2020-10-10T15:35:14.517+11:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2020-10-10T15:44:34.333+11:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wkndmuzik/components/image"
+                fileReference="/content/dam/wkndmuzik/Logo.svg"/>
             <navigation
+                jcr:lastModified="{Date}2020-10-10T20:34:00.800+11:00"
+                jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="wkndmuzik/components/navigation"
                 collectAllPages="false"
-                navigationRoot="/content/wkndmuzik/us/en"
+                disableShadowing="false"
+                navigationRoot="/content/wkndmuzik/us/en/category"
                 skipNavigationRoot="false"
-                structureDepth="1"/>
+                structureDepth="1"
+                structureStart="1"/>
+            <button
+                jcr:created="{Date}2020-10-10T15:35:49.656+11:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2020-10-10T15:41:26.540+11:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Contact"
+                sling:resourceType="wkndmuzik/components/button"
+                icon="email"
+                link="/content/wkndmuzik/us/en"/>
             <languagenavigation
+                jcr:lastModified="{Date}2020-10-10T20:34:11.263+11:00"
+                jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="wkndmuzik/components/languagenavigation"
-                navigationRoot="/content/wkndmuzik/us"
+                navigationRoot="/content/wkndmuzik"
                 structureDepth="2"/>
             <search
                 jcr:primaryType="nt:unstructured"

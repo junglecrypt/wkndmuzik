@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2020-10-10T17:23:59.402+11:00"
+        cq:lastModifiedBy="admin"
+        cq:tags="[]"
+        cq:template="/conf/wkndmuzik/settings/wcm/templates/xf-web-variation"
+        cq:xfMasterVariation="{Boolean}true"
+        cq:xfVariantType="web"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Carousel"
+        sling:resourceType="wkndmuzik/components/xfpage">
+        <root
+            jcr:lastModified="{Date}2020-10-10T16:35:35.665+11:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wkndmuzik/components/container"
+            layout="simple">
+            <carousel
+                jcr:created="{Date}2020-10-10T16:16:35.300+11:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2020-10-10T16:16:35.300+11:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wkndmuzik/components/carousel">
+                <heroimage_1083139180
+                    jcr:created="{Date}2020-10-10T16:17:49.184+11:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2020-10-10T16:43:16.850+11:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wkndmuzik/components/heroimage"
+                    alt="Live Music"
+                    altValueFromDAM="false"
+                    displayPopupTitle="true"
+                    fileReference="/content/dam/wkndmuzik/hero1LiveMusic.png"
+                    isDecorative="false"
+                    titleValueFromDAM="true">
+                    <heroheading
+                        jcr:lastModified="{Date}2020-10-10T16:20:50.502+11:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="LIVE MUSIC FROM HOME."
+                        sling:resourceType="wkndmuzik/components/title"
+                        type="h1"/>
+                    <herotext
+                        jcr:lastModified="{Date}2020-10-10T16:24:13.765+11:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wkndmuzik/components/text"
+                        text="&lt;p>Stream from all faviourite artist's show's on any devices, any time.&lt;/p>&#xd;&#xa;"
+                        textIsRich="true"/>
+                    <button
+                        jcr:lastModified="{Date}2020-10-10T16:21:51.561+11:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="LEARN MORE"
+                        sling:resourceType="wkndmuzik/components/button"
+                        link="/content/wkndmuzik/us/en"/>
+                </heroimage_1083139180>
+                <heroimage_780468189
+                    cq:styleIds="[1602310933672]"
+                    jcr:created="{Date}2020-10-10T16:17:43.571+11:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2020-10-10T16:32:00.982+11:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wkndmuzik/components/heroimage"
+                    alt="See all the details"
+                    altValueFromDAM="false"
+                    displayPopupTitle="true"
+                    fileReference="/content/dam/wkndmuzik/hero2seealldetail.png"
+                    isDecorative="false"
+                    titleValueFromDAM="true">
+                    <heroheading
+                        jcr:lastModified="{Date}2020-10-10T16:20:43.633+11:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="See all the Details"
+                        sling:resourceType="wkndmuzik/components/title"
+                        type="h1"/>
+                    <button
+                        jcr:lastModified="{Date}2020-10-10T16:22:08.488+11:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="LEARN MORE"
+                        sling:resourceType="wkndmuzik/components/button"
+                        link="/content/wkndmuzik/us/en"/>
+                    <herotext
+                        jcr:lastModified="{Date}2020-10-10T16:22:24.838+11:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wkndmuzik/components/text"
+                        text="&lt;p>Get a better view than any seat with close up shots&lt;/p>&#xd;&#xa;"
+                        textIsRich="true"/>
+                </heroimage_780468189>
+                <heroimage
+                    jcr:created="{Date}2020-10-10T16:17:27.029+11:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2020-10-10T16:32:30.276+11:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wkndmuzik/components/heroimage"
+                    alt="Go Backstage"
+                    altValueFromDAM="false"
+                    displayPopupTitle="true"
+                    fileReference="/content/dam/wkndmuzik/hero3gobackstage.png"
+                    isDecorative="false"
+                    titleValueFromDAM="true">
+                    <heroheading
+                        jcr:lastModified="{Date}2020-10-10T16:21:07.580+11:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="GO Backstage"
+                        sling:resourceType="wkndmuzik/components/title"
+                        type="h2"/>
+                    <herotext
+                        jcr:lastModified="{Date}2020-10-10T16:21:24.325+11:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wkndmuzik/components/text"
+                        text="&lt;p>Get behind-the-scene footage before, during and after the event!&lt;/p>&#xd;&#xa;"
+                        textIsRich="true"/>
+                    <button
+                        jcr:lastModified="{Date}2020-10-10T16:21:51.561+11:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="LEARN MORE"
+                        sling:resourceType="wkndmuzik/components/button"
+                        link="/content/wkndmuzik/us/en"/>
+                </heroimage>
+            </carousel>
+        </root>
+    </jcr:content>
+</jcr:root>

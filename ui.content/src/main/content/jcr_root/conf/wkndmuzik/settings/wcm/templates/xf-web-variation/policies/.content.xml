@@ -2,6 +2,8 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
+        cq:lastModified="{Date}2020-10-10T20:21:40.600+11:00"
+        cq:lastModifiedBy="admin"
         cq:policy="wkndmuzik/components/page/policy"
         jcr:primaryType="nt:unstructured"
         sling:resourceType="wcm/core/components/policies/mappings">
@@ -33,6 +35,14 @@
                         sling:resourceType="wcm/core/components/policies/mapping"/>
                 </components>
             </mysite>
+            <wkndmuzik jcr:primaryType="nt:unstructured">
+                <components jcr:primaryType="nt:unstructured">
+                    <heroimage
+                        cq:policy="wkndmuzik/components/heroimage/policy_1602310915904"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wcm/core/components/policies/mapping"/>
+                </components>
+            </wkndmuzik>
         </root>
     </jcr:content>
 </jcr:root>
