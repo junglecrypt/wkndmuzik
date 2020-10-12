@@ -1,5 +1,21 @@
-.cmp-breadcrumb {}
+.cmp-breadcrumb {
+  font-size: 12px;
+  line-height: 26px;
+  .cmp-breadcrumb__item {
+    .cmp-breadcrumb__item-link{
+      span{
+        text-decoration: underline;
+      }
+    }
+    + .cmp-breadcrumb__item::before {
+      padding: 0 7px;
+      content: "\003E";
+    }
+  }
+}
 .cmp-breadcrumb__list {}
 .cmp-breadcrumb__item {}
-.cmp-breadcrumb__item--active {}
+.cmp-breadcrumb__item--active {
+  font-weight: bold;
+}
 .cmp-breadcrumb__item-link {}

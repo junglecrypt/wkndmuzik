@@ -1,5 +1,22 @@
-.cmp-search {}
-.cmp-search__form {}
+.cmp-search {
+  margin: 13px;
+&::before {
+content: " ";
+display: block;
+height: 1em;
+$color-foreground-rgb: 'rgb('+red($color-foreground)+','+green($color-foreground)+','+blue($color-foreground)+')';
+background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14"><path fill="'+$color-foreground-rgb+'" d="M13.071,14.071a.993.993,0,0,1-.707-.294l-2.9-2.9a6.012,6.012,0,1,1,1.414-1.414l2.9,2.9a1,1,0,0,1-.707,1.708ZM6,2A4,4,0,1,0,8.828,3.172,3.971,3.971,0,0,0,6,2Z" transform="translate(-0.002 0)"/></svg>');
+background-repeat: no-repeat;
+
+@media (prefers-color-scheme: dark) {
+    $color-background-rgb: 'rgb('+red($color-foreground-dark)+','+green($color-foreground-dark)+','+blue($color-foreground-dark)+')';
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="'+$color-background-rgb+'" d=d="M13.071,14.071a.993.993,0,0,1-.707-.294l-2.9-2.9a6.012,6.012,0,1,1,1.414-1.414l2.9,2.9a1,1,0,0,1-.707,1.708ZM6,2A4,4,0,1,0,8.828,3.172,3.971,3.971,0,0,0,6,2Z" transform="translate(-0.002 0)"/></svg>');
+}
+}
+}
+.cmp-search__form {
+  display: none;
+}
 .cmp-search__field {}
 .cmp-search__icon {}
 .cmp-search__input {}

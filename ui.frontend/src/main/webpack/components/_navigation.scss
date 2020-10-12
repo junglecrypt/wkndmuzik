@@ -3,7 +3,11 @@
   line-height: 15px;
   letter-spacing: 2.4px;
 }
-.cmp-navigation__group {}
+.cmp-navigation__group {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
 .cmp-navigation__item {}
 .cmp-navigation__item--active {}
 // .cmp-navigation__item--level-0 {}

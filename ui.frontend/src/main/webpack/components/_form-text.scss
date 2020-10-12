@@ -1,4 +1,21 @@
-.cmp-form-text {}
+.cmp-form-text {
+  label{
+    display: block;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 2.8px;
+    margin-bottom: 32px;
+    text-transform: uppercase;
+  }
+}
 .cmp-form-text__help-block {}
-.cmp-form-text__textarea {}
-.cmp-form-text__text {}
+.cmp-form-text__textarea, .cmp-form-text__text {
+  border: 1px solid #E6E6E6;
+  background-color: transparent;
+  color: #FFFFFF;
+}
+.cmp-form-text__text {
+  border-radius: 6px;
+  margin-bottom: 24px;
+  width: 65%;
+}
