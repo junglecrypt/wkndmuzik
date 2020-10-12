@@ -14,10 +14,9 @@
   ~ limitations under the License.
   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/-->
 <sly data-sly-use.image="com.adobe.cq.wcm.core.components.models.Image">
-<div data-sly-test="${properties.fileReference}" class="background"
-	style="background-image: url('${ image.src  @ context=' uri '}');">
+<div data-sly-test="${properties.fileReference}" class="background" style="background-image: url('${image.src  @ context='uri'}');" >
 </div>
-<div data-sly-test="${!properties.fileReference}" class="background">
+<div data-sly-test="${!properties.fileReference}" class="background" >
 </div>
 <sly
 	data-sly-use.teaser="com.adobe.cq.wcm.core.components.models.Teaser"

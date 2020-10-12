@@ -508,6 +508,50 @@
                     <jcr:content jcr:primaryType="nt:unstructured"/>
                 </policy_1602323377733>
             </embed>
+            <separator jcr:primaryType="nt:unstructured">
+                <policy_1602328127086
+                    cq:styleDefaultClasses="space_32"
+                    jcr:lastModified="{Date}2020-10-10T22:49:48.285+11:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Separator policy"
+                    sling:resourceType="wcm/core/components/policy/policy">
+                    <jcr:content jcr:primaryType="nt:unstructured"/>
+                    <cq:styleGroups jcr:primaryType="nt:unstructured">
+                        <item0
+                            cq:styleGroupLabel="Spacer"
+                            jcr:primaryType="nt:unstructured">
+                            <cq:styles jcr:primaryType="nt:unstructured">
+                                <item0
+                                    cq:styleClasses="space_4"
+                                    cq:styleId="1602328157592"
+                                    cq:styleLabel="4 pixel"
+                                    jcr:primaryType="nt:unstructured"/>
+                                <item1
+                                    cq:styleClasses="space_8"
+                                    cq:styleId="1602328172129"
+                                    cq:styleLabel="8 pixel"
+                                    jcr:primaryType="nt:unstructured"/>
+                                <item2
+                                    cq:styleClasses="space_16"
+                                    cq:styleId="1602328181851"
+                                    cq:styleLabel="16 pixel"
+                                    jcr:primaryType="nt:unstructured"/>
+                                <item3
+                                    cq:styleClasses="space_32"
+                                    cq:styleId="1602328462967"
+                                    cq:styleLabel="32 pixel"
+                                    jcr:primaryType="nt:unstructured"/>
+                                <item4
+                                    cq:styleClasses="space_64"
+                                    cq:styleId="1602328474156"
+                                    cq:styleLabel="64 pixel"
+                                    jcr:primaryType="nt:unstructured"/>
+                            </cq:styles>
+                        </item0>
+                    </cq:styleGroups>
+                </policy_1602328127086>
+            </separator>
         </components>
     </wkndmuzik>
     <rep:policy/>

@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2020-10-10T17:23:59.402+11:00"
+        cq:lastModified="{Date}2020-10-12T10:45:28.659+11:00"
         cq:lastModifiedBy="admin"
         cq:tags="[]"
         cq:template="/conf/wkndmuzik/settings/wcm/templates/xf-web-variation"
@@ -52,12 +52,12 @@
                         text="&lt;p>Stream from all faviourite artist's show's on any devices, any time.&lt;/p>&#xd;&#xa;"
                         textIsRich="true"/>
                     <button
-                        jcr:lastModified="{Date}2020-10-10T16:21:51.561+11:00"
+                        jcr:lastModified="{Date}2020-10-12T10:45:01.418+11:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="LEARN MORE"
                         sling:resourceType="wkndmuzik/components/button"
-                        link="/content/wkndmuzik/us/en"/>
+                        link="/content/wkndmuzik/us/en/learnmore"/>
                 </heroimage_1083139180>
                 <heroimage_780468189
                     cq:styleIds="[1602310933672]"
@@ -81,12 +81,12 @@
                         sling:resourceType="wkndmuzik/components/title"
                         type="h1"/>
                     <button
-                        jcr:lastModified="{Date}2020-10-10T16:22:08.488+11:00"
+                        jcr:lastModified="{Date}2020-10-12T10:45:13.962+11:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="LEARN MORE"
                         sling:resourceType="wkndmuzik/components/button"
-                        link="/content/wkndmuzik/us/en"/>
+                        link="/content/wkndmuzik/us/en/learnmore"/>
                     <herotext
                         jcr:lastModified="{Date}2020-10-10T16:22:24.838+11:00"
                         jcr:lastModifiedBy="admin"
@@ -123,12 +123,12 @@
                         text="&lt;p>Get behind-the-scene footage before, during and after the event!&lt;/p>&#xd;&#xa;"
                         textIsRich="true"/>
                     <button
-                        jcr:lastModified="{Date}2020-10-10T16:21:51.561+11:00"
+                        jcr:lastModified="{Date}2020-10-12T10:45:28.585+11:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="LEARN MORE"
                         sling:resourceType="wkndmuzik/components/button"
-                        link="/content/wkndmuzik/us/en"/>
+                        link="/content/wkndmuzik/us/en/learnmore"/>
                 </heroimage>
             </carousel>
         </root>

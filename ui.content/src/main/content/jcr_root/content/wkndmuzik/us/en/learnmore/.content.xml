@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2020-10-10T20:52:52.848+11:00"
+        cq:lastModified="{Date}2020-10-12T10:47:22.898+11:00"
         cq:lastModifiedBy="admin"
         cq:template="/conf/wkndmuzik/settings/wcm/templates/page-content"
         jcr:primaryType="cq:PageContent"
@@ -14,30 +14,24 @@
             <container
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="wkndmuzik/components/container">
-                <title
-                    jcr:primaryType="nt:unstructured"
-                    sling:resourceType="wkndmuzik/components/title"/>
                 <container
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="wkndmuzik/components/container"
                     layout="responsiveGrid">
-                    <breadcrumb
-                        jcr:created="{Date}2020-10-10T17:28:04.268+11:00"
+                    <separator
+                        cq:styleIds="[1602328462967]"
+                        jcr:created="{Date}2020-10-10T22:39:50.954+11:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2020-10-10T20:35:43.483+11:00"
+                        jcr:lastModified="{Date}2020-10-10T22:39:50.954+11:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="wkndmuzik/components/breadcrumb"
-                        disableShadowing="false"
-                        hideCurrent="false"
-                        showHidden="false"
-                        startLevel="3"/>
+                        sling:resourceType="wkndmuzik/components/separator"/>
                     <teaser
                         cq:styleIds="[1602311431929]"
                         jcr:created="{Date}2020-10-10T17:29:01.762+11:00"
                         jcr:createdBy="admin"
                         jcr:description="&lt;p>See all the details with closeup and backstage footage that allow you to see more than you ever could in a venue seat.&lt;/p>&#xd;&#xa;"
-                        jcr:lastModified="{Date}2020-10-10T17:32:13.979+11:00"
+                        jcr:lastModified="{Date}2020-10-10T21:47:58.433+11:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="Front row. Every night."
@@ -62,7 +56,7 @@
                         jcr:created="{Date}2020-10-10T17:32:56.846+11:00"
                         jcr:createdBy="admin"
                         jcr:description="&lt;p>Access to 20 shows per year on all digital devices.&lt;/p>&#xd;&#xa;"
-                        jcr:lastModified="{Date}2020-10-10T17:34:50.435+11:00"
+                        jcr:lastModified="{Date}2020-10-12T10:46:55.951+11:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="$10/month"
@@ -81,7 +75,7 @@
                         <actions jcr:primaryType="nt:unstructured">
                             <item0
                                 jcr:primaryType="nt:unstructured"
-                                link="/content/wkndmuzik/us/en"
+                                link="/content/wkndmuzik/us/en/category/memberships"
                                 text="Sign Up"/>
                         </actions>
                     </teaser_1382597511>
@@ -90,7 +84,7 @@
                         jcr:created="{Date}2020-10-10T17:33:05.860+11:00"
                         jcr:createdBy="admin"
                         jcr:description="&lt;p>Access to 50 shows per year on all digital devices.&lt;/p>&#xd;&#xa;"
-                        jcr:lastModified="{Date}2020-10-10T17:35:40.741+11:00"
+                        jcr:lastModified="{Date}2020-10-12T10:47:08.705+11:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="$12/month"
@@ -109,7 +103,7 @@
                         <actions jcr:primaryType="nt:unstructured">
                             <item0
                                 jcr:primaryType="nt:unstructured"
-                                link="/content/wkndmuzik/us/en"
+                                link="/content/wkndmuzik/us/en/category/memberships"
                                 text="Sign up"/>
                         </actions>
                     </teaser_2023048082>
@@ -118,7 +112,7 @@
                         jcr:created="{Date}2020-10-10T17:33:14.958+11:00"
                         jcr:createdBy="admin"
                         jcr:description="&lt;p>Access to unlimited shows per year on all digital devices.&lt;/p>&#xd;&#xa;"
-                        jcr:lastModified="{Date}2020-10-10T17:36:28.026+11:00"
+                        jcr:lastModified="{Date}2020-10-12T10:47:22.891+11:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="$15/month"
@@ -137,7 +131,7 @@
                         <actions jcr:primaryType="nt:unstructured">
                             <item0
                                 jcr:primaryType="nt:unstructured"
-                                link="/content/wkndmuzik/us/en"
+                                link="/content/wkndmuzik/us/en/category/memberships"
                                 text="Sign up"/>
                         </actions>
                     </teaser_1890753192>
@@ -282,6 +276,10 @@
                         youtubeVideoId="BubwLnPcQjc"
                         youtubeWidth="1019"/>
                 </container>
+                <separator
+                    cq:styleIds="[1602328474156]"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wkndmuzik/components/separator"/>
             </container>
         </root>
     </jcr:content>

@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2020-10-10T20:34:11.369+11:00"
+        cq:lastModified="{Date}2020-10-10T23:03:01.366+11:00"
         cq:lastModifiedBy="admin"
         cq:tags="[]"
         cq:template="/conf/wkndmuzik/settings/wcm/templates/xf-web-variation"
@@ -18,7 +18,7 @@
             <image
                 jcr:created="{Date}2020-10-10T15:35:14.517+11:00"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2020-10-10T15:44:34.333+11:00"
+                jcr:lastModified="{Date}2020-10-10T23:03:01.180+11:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="wkndmuzik/components/image"
@@ -44,6 +44,10 @@
                 sling:resourceType="wkndmuzik/components/button"
                 icon="email"
                 link="/content/wkndmuzik/us/en"/>
+            <search
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wkndmuzik/components/search"
+                searchRoot="/content/wkndmuzik/us"/>
             <languagenavigation
                 jcr:lastModified="{Date}2020-10-10T20:34:11.263+11:00"
                 jcr:lastModifiedBy="admin"
@@ -51,10 +55,6 @@
                 sling:resourceType="wkndmuzik/components/languagenavigation"
                 navigationRoot="/content/wkndmuzik"
                 structureDepth="2"/>
-            <search
-                jcr:primaryType="nt:unstructured"
-                sling:resourceType="wkndmuzik/components/search"
-                searchRoot="/content/wkndmuzik/us"/>
         </root>
     </jcr:content>
 </jcr:root>

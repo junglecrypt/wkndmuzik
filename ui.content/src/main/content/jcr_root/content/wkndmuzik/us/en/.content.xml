@@ -4,7 +4,7 @@
     <jcr:content
         cq:contextHubPath="/etc/cloudsettings/default/contexthub"
         cq:contextHubSegmentsPath="/etc/segmentation/contexthub"
-        cq:lastModified="{Date}2020-10-10T17:20:58.667+11:00"
+        cq:lastModified="{Date}2020-10-12T10:44:12.290+11:00"
         cq:lastModifiedBy="admin"
         cq:template="/conf/wkndmuzik/settings/wcm/templates/homepage"
         jcr:primaryType="cq:PageContent"
@@ -42,6 +42,36 @@
                                 width="5"/>
                         </cq:responsive>
                     </image>
+                    <separator_1195642562
+                        cq:styleIds="[1602328474156]"
+                        jcr:created="{Date}2020-10-10T22:27:16.937+11:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2020-10-10T22:27:16.937+11:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wkndmuzik/components/separator">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="6"/>
+                        </cq:responsive>
+                    </separator_1195642562>
+                    <separator_1195642562_35944723
+                        cq:styleIds="[1602328462967]"
+                        jcr:created="{Date}2020-10-10T22:27:16.937+11:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2020-10-10T22:27:16.937+11:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wkndmuzik/components/separator">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="6"/>
+                        </cq:responsive>
+                    </separator_1195642562_35944723>
                     <title_92149336
                         jcr:created="{Date}2020-10-10T17:02:35.523+11:00"
                         jcr:createdBy="admin"
@@ -58,6 +88,21 @@
                                 width="6"/>
                         </cq:responsive>
                     </title_92149336>
+                    <separator_1195642562_245370090
+                        cq:styleIds="[1602328462967]"
+                        jcr:created="{Date}2020-10-10T22:27:16.937+11:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2020-10-10T22:27:16.937+11:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wkndmuzik/components/separator">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="6"/>
+                        </cq:responsive>
+                    </separator_1195642562_245370090>
                     <text
                         jcr:created="{Date}2020-10-10T17:02:55.220+11:00"
                         jcr:createdBy="admin"
@@ -74,6 +119,14 @@
                                 width="6"/>
                         </cq:responsive>
                     </text>
+                    <separator
+                        cq:styleIds="[1602328474156]"
+                        jcr:created="{Date}2020-10-10T22:18:15.676+11:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2020-10-10T22:18:15.676+11:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wkndmuzik/components/separator"/>
                     <title
                         jcr:created="{Date}2020-10-10T17:02:27.054+11:00"
                         jcr:createdBy="admin"
@@ -84,7 +137,7 @@
                         sling:resourceType="wkndmuzik/components/title"
                         type="h2"/>
                     <teaser
-                        cq:styleIds="[1602310309950]"
+                        cq:styleIds="[1602310309950,1602310369358]"
                         jcr:description="&lt;p>See your favorite bands take stage. We stream 52,724 band shows per year.&lt;/p>&#xd;&#xa;"
                         jcr:lastModified="{Date}2020-10-10T17:10:16.901+11:00"
                         jcr:lastModifiedBy="admin"
@@ -104,7 +157,7 @@
                         </cq:responsive>
                     </teaser>
                     <teaser_copy
-                        cq:styleIds="[1602310309950]"
+                        cq:styleIds="[1602310309950,1602310400541]"
                         jcr:description="&lt;p>See your favorite DJ’s take stage. We stream 112,724 DJ shows per year.&lt;/p>&#xd;&#xa;"
                         jcr:lastModified="{Date}2020-10-10T17:10:24.486+11:00"
                         jcr:lastModifiedBy="admin"
@@ -124,7 +177,7 @@
                         </cq:responsive>
                     </teaser_copy>
                     <teaser_copy_1579324932
-                        cq:styleIds="[1602310309950]"
+                        cq:styleIds="[1602310309950,1602310388257]"
                         jcr:description="&lt;p>See your favorite solo artists take stage. We stream 92,724 solo artist shows per year.&lt;/p>&#xd;&#xa;"
                         jcr:lastModified="{Date}2020-10-10T17:10:27.382+11:00"
                         jcr:lastModifiedBy="admin"
@@ -147,12 +200,12 @@
                         cq:styleIds="[1602310791530]"
                         jcr:created="{Date}2020-10-10T17:19:02.152+11:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2020-10-10T17:19:19.633+11:00"
+                        jcr:lastModified="{Date}2020-10-12T10:44:12.260+11:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="Sign up for membership!"
                         sling:resourceType="wkndmuzik/components/button"
-                        link="/content/wkndmuzik/us/en"/>
+                        link="/content/wkndmuzik/us/en/category/memberships"/>
                 </container>
             </container>
         </root>
@@ -160,4 +213,7 @@
     <learnmore/>
     <contact/>
     <category/>
+    <shows/>
+    <blog/>
+    <memberships/>
 </jcr:root>

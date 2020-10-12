@@ -2,28 +2,19 @@
 <jcr:root xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:mixinTypes="[mix:referenceable]"
     jcr:primaryType="dam:Asset"
-    jcr:uuid="2bbcb6f3-7a0a-4acf-9ba4-2bfa3533295f">
+    jcr:uuid="6ed1bd54-94ad-46ed-b427-465068b94b08">
     <jcr:content
         dam:assetState="processed"
-        jcr:lastModified="{Date}2020-10-10T15:43:32.888+11:00"
+        jcr:lastModified="{Date}2020-10-10T21:28:31.768+11:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
-            dam:extracted="{Date}2020-10-10T15:43:30.148+11:00"
+            dam:extracted="{Date}2020-10-10T21:28:28.905+11:00"
             dam:sha1="dd5db3a6e2c426fe41b8cc17d7c774988f952ec7"
             dam:size="{Long}1213"
             dc:format="image/svg+xml"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"/>
         <related jcr:primaryType="nt:unstructured"/>
-        <usages
-            dam:score="{Long}1"
-            jcr:primaryType="nt:unstructured"
-            usedBy="[aem]">
-            <aem
-                jcr:primaryType="nt:unstructured"
-                count="{Long}1"
-                lastUsed="{Date}2020-10-10T15:44:34.928+11:00"/>
-        </usages>
     </jcr:content>
 </jcr:root>
