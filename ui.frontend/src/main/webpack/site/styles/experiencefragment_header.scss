@@ -4,27 +4,19 @@
 header.experiencefragment {
   line-height: 1;
   text-align: center;
-
-    //padding: .5em 1em;
-    //border-bottom: 1px solid $color-foreground;
-
     @media (prefers-color-scheme: dark) {
         border-bottom-color: $color-foreground-dark;
     }
-
     a {
         color: $color-foreground;
         text-decoration: none;
-
         @media (prefers-color-scheme: dark) {
             color: $color-foreground-dark;
         }
-
         &:hover,
         &:focus {
             color: $color-link;
             text-decoration: underline;
-
             @media (prefers-color-scheme: dark) {
                 color: $color-link-dark;
             }
@@ -36,16 +28,16 @@ header.experiencefragment {
     .cmp-container {
         display: grid;
       //  grid-template-columns:  221px auto 152px 41px 54px;
-        grid-template-columns: 7fr 17fr 170px 1fr 1fr;
-        margin: 20px 0 0 0;
+        grid-template-columns: 6fr 18fr 150px 0.9fr 1.2fr;
+        padding: 20px 0 0 0;
         z-index: 1;
+        height: 45px;
         position: relative;
         top: 0;
         left: 0;
         width: 100%;
         .image{
-          text-align: left;
-          margin-left: 35px;
+          margin-left: 14px;
         }
     }
 
@@ -94,7 +86,6 @@ header.experiencefragment {
       letter-spacing: 2.4px;
     }
 
-
     //== Search
 
     .cmp-search__field {
@@ -104,7 +95,5 @@ header.experiencefragment {
     .cmp-search__input {
         height: 26px;
     }
-
-
 
 }

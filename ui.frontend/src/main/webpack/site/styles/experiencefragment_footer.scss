@@ -5,15 +5,16 @@ footer.experiencefragment {
   @media (prefers-color-scheme: dark) {
     border-color: $color-foreground-dark;
   }
-  .cmp-container{
-    background: #171717;
-    padding-top: 80px;
-    .navigation{
-      margin-bottom: 54px;
+  .cmp-experiencefragment--footer{
+    > .cmp-container{
+      background: #171717;
+      padding-top: 80px;
+      .navigation{
+        margin-bottom: 54px;
+      }
     }
   }
   .cmp-separator__horizontal-rule {
-    margin: 0 -8rem;
     border-top: 1px solid #FFFFFF;
     opacity: 0.17;
     border-bottom-color: transparent;
@@ -44,15 +45,37 @@ footer.experiencefragment {
       color: $color-link-dark;
       }
     }
-    .text{
-      .cmp-text{
-        margin: 24px 0;
-        p{
-          color: #FFFFFF80;
-          font-size: 14px;
-          line-height: 19px;
-          margin: 0;
-        }
+  .text{
+    .cmp-text{
+      margin: 24px 0;
+      p{
+        color: #FFFFFF80;
+        font-size: 14px;
+        line-height: 19px;
+        margin: 0;
       }
     }
+  }
+  .image{
+    &.aem-GridColumn.aem-GridColumn--default--1{
+      float: right;
+    }
+    text-align: right;
+    .cmp-image__image{
+        width: 16px;
+    }
+  }
+  .container{
+    &.aem-GridColumn.aem-GridColumn--default--2{
+      .image{
+        width: 44px;
+        float: left;
+        text-align: left;
+      }
+    }
+    .cmp-image__image{
+      width: 14px;
+      height: 14px;
+    }
+  }
 }

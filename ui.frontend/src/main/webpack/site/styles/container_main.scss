@@ -5,12 +5,32 @@ main.container {
     padding: .5em 1em;
 }
 .right-space{
-  padding-right: 8px;
+  padding-right: 10.663px;
 }
 .left-space{
-  padding-left: 8px;
+  padding-left: 10.663px;
 }
 .both-space{
-  padding-right: 4px;
-  padding-left: 4px;
+  padding-right: 5.331px;
+  padding-left: 5.331px;
+}
+.text-center{
+  text-align: center;
+}
+.text-right{
+  text-align: right;
+}
+.text-left{
+  text-align: left;
+}
+.bold-font-60{
+  p{
+    font-size: 60px;
+    line-height: 0px;
+    font-weight: bold;
+  }
+}
+.full-page-width{
+  margin: 0px calc((101vw - 100%) / -2);
+  width: 100vw !important;
 }
