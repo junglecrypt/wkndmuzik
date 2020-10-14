@@ -2,10 +2,14 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
+        cq:lastModified="{Date}2020-10-13T09:31:13.498+11:00"
+        cq:lastModifiedBy="admin"
         cq:redirectTarget="/content/wkndmuzik/us/en"
         cq:template="/conf/wkndmuzik/settings/wcm/templates/page-content"
         jcr:primaryType="cq:PageContent"
         jcr:title="us"
-        sling:resourceType="foundation/components/redirect"/>
+        sling:resourceType="foundation/components/redirect"
+        navTitle="United States"/>
     <en/>
+    <es/>
 </jcr:root>

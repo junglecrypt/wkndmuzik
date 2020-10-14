@@ -76,6 +76,8 @@
             </image>
             <text jcr:primaryType="nt:unstructured">
                 <policy_641562756958017
+                    jcr:lastModified="{Date}2020-10-12T15:39:45.368+11:00"
+                    jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     jcr:title="Content Text"
                     sling:resourceType="wcm/core/components/policy/policy">
@@ -103,7 +105,7 @@
                         </paraformat>
                         <misctools
                             jcr:primaryType="nt:unstructured"
-                            features="-">
+                            features="sourceedit">
                             <specialCharsConfig jcr:primaryType="nt:unstructured">
                                 <chars
                                     jcr:primaryType="nt:unstructured"
@@ -161,6 +163,40 @@
                             jcr:primaryType="nt:unstructured"
                             features="-"/>
                     </rtePlugins>
+                    <cq:styleGroups jcr:primaryType="nt:unstructured">
+                        <item0
+                            cq:styleGroupLabel="Alignment"
+                            jcr:primaryType="nt:unstructured">
+                            <cq:styles jcr:primaryType="nt:unstructured">
+                                <item0
+                                    cq:styleClasses="text-left"
+                                    cq:styleId="1602477496600"
+                                    cq:styleLabel="Left"
+                                    jcr:primaryType="nt:unstructured"/>
+                                <item1
+                                    cq:styleClasses="text-center"
+                                    cq:styleId="1602477462775"
+                                    cq:styleLabel="Center"
+                                    jcr:primaryType="nt:unstructured"/>
+                                <item2
+                                    cq:styleClasses="text-right"
+                                    cq:styleId="1602477480595"
+                                    cq:styleLabel="Right"
+                                    jcr:primaryType="nt:unstructured"/>
+                            </cq:styles>
+                        </item0>
+                        <item1
+                            cq:styleGroupLabel="Font Style"
+                            jcr:primaryType="nt:unstructured">
+                            <cq:styles jcr:primaryType="nt:unstructured">
+                                <item0
+                                    cq:styleClasses="bold-font-60"
+                                    cq:styleId="1602477557635"
+                                    cq:styleLabel="Bold 60"
+                                    jcr:primaryType="nt:unstructured"/>
+                            </cq:styles>
+                        </item1>
+                    </cq:styleGroups>
                 </policy_641562756958017>
             </text>
             <title jcr:primaryType="nt:unstructured">
@@ -437,7 +473,7 @@
             </button>
             <heroimage jcr:primaryType="nt:unstructured">
                 <policy_1602310915904
-                    jcr:lastModified="{Date}2020-10-10T17:23:03.082+11:00"
+                    jcr:lastModified="{Date}2020-10-12T16:15:08.540+11:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     jcr:title="Policy heroimage"
@@ -482,7 +518,9 @@
                             features="-"/>
                     </plugins>
                     <cq:styleGroups jcr:primaryType="nt:unstructured">
-                        <item0 jcr:primaryType="nt:unstructured">
+                        <item0
+                            cq:styleGroupLabel="Text Box"
+                            jcr:primaryType="nt:unstructured">
                             <cq:styles jcr:primaryType="nt:unstructured">
                                 <item0
                                     cq:styleClasses="right-align"
@@ -491,6 +529,17 @@
                                     jcr:primaryType="nt:unstructured"/>
                             </cq:styles>
                         </item0>
+                        <item1
+                            cq:styleGroupLabel="Width"
+                            jcr:primaryType="nt:unstructured">
+                            <cq:styles jcr:primaryType="nt:unstructured">
+                                <item0
+                                    cq:styleClasses="full-page-width"
+                                    cq:styleId="1602479556672"
+                                    cq:styleLabel="Full Width"
+                                    jcr:primaryType="nt:unstructured"/>
+                            </cq:styles>
+                        </item1>
                     </cq:styleGroups>
                 </policy_1602310915904>
             </heroimage>
@@ -551,6 +600,25 @@
                         </item0>
                     </cq:styleGroups>
                 </policy_1602328127086>
+                <policy_440346341123900
+                    jcr:lastModified="{Date}2020-10-12T17:06:43.820+11:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Separatorfullwidthpolicy"
+                    sling:resourceType="wcm/core/components/policy/policy">
+                    <jcr:content jcr:primaryType="nt:unstructured"/>
+                    <cq:styleGroups jcr:primaryType="nt:unstructured">
+                        <item0 jcr:primaryType="nt:unstructured">
+                            <cq:styles jcr:primaryType="nt:unstructured">
+                                <item0
+                                    cq:styleClasses="full-page-width"
+                                    cq:styleId="1602482765376"
+                                    cq:styleLabel="Full Width"
+                                    jcr:primaryType="nt:unstructured"/>
+                            </cq:styles>
+                        </item0>
+                    </cq:styleGroups>
+                </policy_440346341123900>
             </separator>
         </components>
     </wkndmuzik>

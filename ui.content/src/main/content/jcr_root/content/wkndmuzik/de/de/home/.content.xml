@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:contextHubPath="/etc/cloudsettings/default/contexthub"
+        cq:contextHubSegmentsPath="/etc/segmentation/contexthub"
+        cq:lastModified="{Date}2020-10-13T10:42:29.188+11:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/wkndmuzik/settings/wcm/templates/homepage"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Home"
+        sling:resourceType="wkndmuzik/components/page"
+        navTitle="Home"
+        pageTitle="WKND Muzik">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wkndmuzik/components/container"
+            layout="responsiveGrid">
+            <container
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wkndmuzik/components/container">
+                <container
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wkndmuzik/components/container"
+                    layout="responsiveGrid">
+                    <image
+                        jcr:created="{Date}2020-10-10T16:54:33.953+11:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2020-10-10T16:57:12.593+11:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wkndmuzik/components/image"
+                        altValueFromDAM="true"
+                        displayPopupTitle="true"
+                        fileReference="/content/dam/wkndmuzik/AdobeStock_285056392.png"
+                        isDecorative="false"
+                        titleValueFromDAM="true">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                behavior="none"
+                                offset="0"
+                                width="5"/>
+                        </cq:responsive>
+                    </image>
+                    <separator_1195642562
+                        cq:styleIds="[1602328474156]"
+                        jcr:created="{Date}2020-10-10T22:27:16.937+11:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2020-10-10T22:27:16.937+11:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wkndmuzik/components/separator">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="6"/>
+                        </cq:responsive>
+                    </separator_1195642562>
+                    <separator_1195642562_35944723
+                        cq:styleIds="[1602328462967]"
+                        jcr:created="{Date}2020-10-10T22:27:16.937+11:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2020-10-10T22:27:16.937+11:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wkndmuzik/components/separator">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="6"/>
+                        </cq:responsive>
+                    </separator_1195642562_35944723>
+                    <title_92149336
+                        jcr:created="{Date}2020-10-10T17:02:35.523+11:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2020-10-10T17:03:33.877+11:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Attend every show"
+                        sling:resourceType="wkndmuzik/components/title"
+                        type="h2">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="6"/>
+                        </cq:responsive>
+                    </title_92149336>
+                    <separator_1195642562_245370090
+                        cq:styleIds="[1602328462967]"
+                        jcr:created="{Date}2020-10-10T22:27:16.937+11:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2020-10-10T22:27:16.937+11:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wkndmuzik/components/separator">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="6"/>
+                        </cq:responsive>
+                    </separator_1195642562_245370090>
+                    <text
+                        jcr:created="{Date}2020-10-10T17:02:55.220+11:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2020-10-10T17:03:48.900+11:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wkndmuzik/components/text"
+                        text="&lt;p>If you can’t fly to Brazil tomorrow night to see your favorite DJ play an epic show, no worries! DJ’s and artists across the globe now offer the ability to stream their show LIVE.&lt;/p>&#xd;&#xa;"
+                        textIsRich="true">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="6"/>
+                        </cq:responsive>
+                    </text>
+                    <separator
+                        cq:styleIds="[1602328474156]"
+                        jcr:created="{Date}2020-10-10T22:18:15.676+11:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2020-10-10T22:18:15.676+11:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wkndmuzik/components/separator"/>
+                    <title
+                        jcr:created="{Date}2020-10-10T17:02:27.054+11:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2020-10-10T17:04:32.967+11:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="All musician types"
+                        sling:resourceType="wkndmuzik/components/title"
+                        type="h2"/>
+                    <teaser
+                        cq:styleIds="[1602310309950,1602310369358]"
+                        jcr:description="&lt;p>See your favorite bands take stage. We stream 52,724 band shows per year.&lt;/p>&#xd;&#xa;"
+                        jcr:lastModified="{Date}2020-10-10T17:10:16.901+11:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Bands"
+                        sling:resourceType="wkndmuzik/components/teaser"
+                        actionsEnabled="false"
+                        descriptionFromPage="false"
+                        fileReference="/content/dam/wkndmuzik/Photo_6.png"
+                        textIsRich="true"
+                        titleFromPage="false">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="4"/>
+                        </cq:responsive>
+                    </teaser>
+                    <teaser_copy
+                        cq:styleIds="[1602310309950,1602310400541]"
+                        jcr:description="&lt;p>See your favorite DJ’s take stage. We stream 112,724 DJ shows per year.&lt;/p>&#xd;&#xa;"
+                        jcr:lastModified="{Date}2020-10-10T17:10:24.486+11:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="World Class DJs"
+                        sling:resourceType="wkndmuzik/components/teaser"
+                        actionsEnabled="false"
+                        descriptionFromPage="false"
+                        fileReference="/content/dam/wkndmuzik/Photo_6_bp.png"
+                        textIsRich="true"
+                        titleFromPage="false">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="4"/>
+                        </cq:responsive>
+                    </teaser_copy>
+                    <teaser_copy_1579324932
+                        cq:styleIds="[1602310309950,1602310388257]"
+                        jcr:description="&lt;p>See your favorite solo artists take stage. We stream 92,724 solo artist shows per year.&lt;/p>&#xd;&#xa;"
+                        jcr:lastModified="{Date}2020-10-10T17:10:27.382+11:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Solo Artists"
+                        sling:resourceType="wkndmuzik/components/teaser"
+                        actionsEnabled="false"
+                        descriptionFromPage="false"
+                        fileReference="/content/dam/wkndmuzik/Photo_6_bx.png"
+                        textIsRich="true"
+                        titleFromPage="false">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="4"/>
+                        </cq:responsive>
+                    </teaser_copy_1579324932>
+                    <button
+                        cq:styleIds="[1602310791530]"
+                        jcr:created="{Date}2020-10-10T17:19:02.152+11:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2020-10-13T10:42:29.177+11:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Sign up for membership!"
+                        sling:resourceType="wkndmuzik/components/button"
+                        link="/content/wkndmuzik/us/en/home/category/memberships"/>
+                </container>
+            </container>
+        </root>
+    </jcr:content>
+    <learnmore/>
+    <contact/>
+    <category/>
+</jcr:root>

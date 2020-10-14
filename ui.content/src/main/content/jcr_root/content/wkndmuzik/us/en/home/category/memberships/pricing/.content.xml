@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2020-10-10T20:26:23.358+11:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/wkndmuzik/settings/wcm/templates/page-content"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Pricing"
+        jcr:uuid="d10ac2d1-26a9-4135-b854-0721786a7694"
+        sling:resourceType="wkndmuzik/components/page"/>
+</jcr:root>

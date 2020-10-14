@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2020-10-10T23:03:01.366+11:00"
+        cq:lastModified="{Date}2020-10-13T16:31:10.167+11:00"
         cq:lastModifiedBy="admin"
         cq:tags="[]"
         cq:template="/conf/wkndmuzik/settings/wcm/templates/xf-web-variation"
@@ -18,38 +18,44 @@
             <image
                 jcr:created="{Date}2020-10-10T15:35:14.517+11:00"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2020-10-10T23:03:01.180+11:00"
+                jcr:lastModified="{Date}2020-10-12T12:27:02.649+11:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="wkndmuzik/components/image"
-                fileReference="/content/dam/wkndmuzik/Logo.svg"/>
+                alt="WKND MUZIK"
+                altValueFromDAM="false"
+                displayPopupTitle="false"
+                fileReference="/content/dam/wkndmuzik/Logo.svg"
+                isDecorative="false"
+                linkURL="/content/wkndmuzik/us/en"
+                titleValueFromDAM="false"/>
             <navigation
-                jcr:lastModified="{Date}2020-10-10T20:34:00.800+11:00"
+                jcr:lastModified="{Date}2020-10-13T10:41:50.830+11:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="wkndmuzik/components/navigation"
                 collectAllPages="false"
                 disableShadowing="false"
-                navigationRoot="/content/wkndmuzik/us/en/category"
+                navigationRoot="/content/wkndmuzik/us/en/home/category"
                 skipNavigationRoot="false"
                 structureDepth="1"
                 structureStart="1"/>
             <button
                 jcr:created="{Date}2020-10-10T15:35:49.656+11:00"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2020-10-10T15:41:26.540+11:00"
+                jcr:lastModified="{Date}2020-10-13T16:31:10.054+11:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 jcr:title="Contact"
                 sling:resourceType="wkndmuzik/components/button"
                 icon="email"
-                link="/content/wkndmuzik/us/en"/>
+                link="mailto:vibhav.kumar@capgemini.com"/>
             <search
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="wkndmuzik/components/search"
                 searchRoot="/content/wkndmuzik/us"/>
             <languagenavigation
-                jcr:lastModified="{Date}2020-10-10T20:34:11.263+11:00"
+                jcr:lastModified="{Date}2020-10-13T11:00:10.846+11:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="wkndmuzik/components/languagenavigation"

@@ -4,12 +4,14 @@
     <jcr:content
         cq:contextHubPath="/etc/cloudsettings/default/contexthub"
         cq:contextHubSegmentsPath="/etc/segmentation/contexthub"
-        cq:lastModified="{Date}2020-10-12T10:44:12.290+11:00"
+        cq:lastModified="{Date}2020-10-13T15:29:19.667+11:00"
         cq:lastModifiedBy="admin"
+        cq:redirectTarget="/content/wkndmuzik/us/en/home"
         cq:template="/conf/wkndmuzik/settings/wcm/templates/homepage"
         jcr:primaryType="cq:PageContent"
         jcr:title="en"
         sling:resourceType="wkndmuzik/components/page"
+        navTitle="EN-US"
         pageTitle="WKND Muzik">
         <root
             jcr:primaryType="nt:unstructured"
@@ -210,10 +212,5 @@
             </container>
         </root>
     </jcr:content>
-    <learnmore/>
-    <contact/>
-    <category/>
-    <shows/>
-    <blog/>
-    <memberships/>
+    <home/>
 </jcr:root>

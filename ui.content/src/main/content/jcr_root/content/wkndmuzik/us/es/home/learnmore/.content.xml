@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2020-10-13T10:46:09.805+11:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/wkndmuzik/settings/wcm/templates/page-content"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Learn More"
+        sling:resourceType="wkndmuzik/components/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wkndmuzik/components/container">
+            <container
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wkndmuzik/components/container">
+                <container
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wkndmuzik/components/container"
+                    layout="responsiveGrid">
+                    <separator
+                        cq:styleIds="[1602328462967]"
+                        jcr:created="{Date}2020-10-10T22:39:50.954+11:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2020-10-10T22:39:50.954+11:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wkndmuzik/components/separator"/>
+                    <teaser
+                        cq:styleIds="[1602311431929]"
+                        jcr:created="{Date}2020-10-10T17:29:01.762+11:00"
+                        jcr:createdBy="admin"
+                        jcr:description="&lt;p>See all the details with closeup and backstage footage that allow you to see more than you ever could in a venue seat.&lt;/p>&#xd;&#xa;"
+                        jcr:lastModified="{Date}2020-10-10T21:47:58.433+11:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Front row. Every night."
+                        sling:resourceType="wkndmuzik/components/teaser"
+                        actionsEnabled="false"
+                        descriptionFromPage="false"
+                        fileReference="/content/dam/wkndmuzik/Intersection_5.png"
+                        pretitle="Comforts of home"
+                        textIsRich="true"
+                        titleFromPage="false"/>
+                    <title
+                        jcr:created="{Date}2020-10-10T17:32:32.149+11:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2020-10-10T17:32:44.175+11:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Monthly membership"
+                        sling:resourceType="wkndmuzik/components/title"
+                        type="h2"/>
+                    <teaser_1382597511
+                        cq:styleIds="[1602310319077]"
+                        jcr:created="{Date}2020-10-10T17:32:56.846+11:00"
+                        jcr:createdBy="admin"
+                        jcr:description="&lt;p>Access to 20 shows per year on all digital devices.&lt;/p>&#xd;&#xa;"
+                        jcr:lastModified="{Date}2020-10-13T10:45:24.053+11:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="$10/month"
+                        sling:resourceType="wkndmuzik/components/teaser"
+                        actionsEnabled="true"
+                        descriptionFromPage="false"
+                        pretitle="Tier 1"
+                        textIsRich="true"
+                        titleFromPage="false">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="4"/>
+                        </cq:responsive>
+                        <actions jcr:primaryType="nt:unstructured">
+                            <item0
+                                jcr:primaryType="nt:unstructured"
+                                link="/content/wkndmuzik/us/en/home/category/memberships"
+                                text="Sign Up"/>
+                        </actions>
+                    </teaser_1382597511>
+                    <teaser_2023048082
+                        cq:styleIds="[1602310330949]"
+                        jcr:created="{Date}2020-10-10T17:33:05.860+11:00"
+                        jcr:createdBy="admin"
+                        jcr:description="&lt;p>Access to 50 shows per year on all digital devices.&lt;/p>&#xd;&#xa;"
+                        jcr:lastModified="{Date}2020-10-13T10:45:57.176+11:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="$12/month"
+                        sling:resourceType="wkndmuzik/components/teaser"
+                        actionsEnabled="true"
+                        descriptionFromPage="false"
+                        pretitle="Sign Up"
+                        textIsRich="true"
+                        titleFromPage="false">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="4"/>
+                        </cq:responsive>
+                        <actions jcr:primaryType="nt:unstructured">
+                            <item0
+                                jcr:primaryType="nt:unstructured"
+                                link="/content/wkndmuzik/us/en/home/category/memberships"
+                                text="Sign up"/>
+                        </actions>
+                    </teaser_2023048082>
+                    <teaser_1890753192
+                        cq:styleIds="[1602310319077]"
+                        jcr:created="{Date}2020-10-10T17:33:14.958+11:00"
+                        jcr:createdBy="admin"
+                        jcr:description="&lt;p>Access to unlimited shows per year on all digital devices.&lt;/p>&#xd;&#xa;"
+                        jcr:lastModified="{Date}2020-10-13T10:46:09.800+11:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="$15/month"
+                        sling:resourceType="wkndmuzik/components/teaser"
+                        actionsEnabled="true"
+                        descriptionFromPage="false"
+                        pretitle="Tier 3"
+                        textIsRich="true"
+                        titleFromPage="false">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="4"/>
+                        </cq:responsive>
+                        <actions jcr:primaryType="nt:unstructured">
+                            <item0
+                                jcr:primaryType="nt:unstructured"
+                                link="/content/wkndmuzik/us/en/home/category/memberships"
+                                text="Sign up"/>
+                        </actions>
+                    </teaser_1890753192>
+                    <title_1574579753
+                        jcr:created="{Date}2020-10-10T17:36:39.691+11:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2020-10-10T17:37:15.892+11:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Shows you don’t want to miss"
+                        sling:resourceType="wkndmuzik/components/title"
+                        type="h2"/>
+                    <tabs
+                        jcr:created="{Date}2020-10-10T17:36:43.003+11:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2020-10-10T17:41:14.340+11:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wkndmuzik/components/tabs">
+                        <item_1
+                            cq:panelTitle="Popular"
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Tab 1"
+                            sling:resourceType="wkndmuzik/components/container"
+                            layout="responsiveGrid">
+                            <teaser
+                                cq:styleIds="[1602310369358]"
+                                jcr:created="{Date}2020-10-10T17:40:57.524+11:00"
+                                jcr:createdBy="admin"
+                                jcr:description="&lt;p>10.21.20&lt;/p>&#xd;&#xa;&lt;p>Listen to smooth and contemporary jazz from award winning artist.&lt;/p>&#xd;&#xa;"
+                                jcr:lastModified="{Date}2020-10-10T20:43:22.239+11:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Saxophone Jam"
+                                sling:resourceType="wkndmuzik/components/teaser"
+                                actionsEnabled="false"
+                                descriptionFromPage="false"
+                                fileReference="/content/dam/wkndmuzik/Young_african-american_jazz_mu.png"
+                                textIsRich="true"
+                                titleFromPage="false">
+                                <cq:responsive jcr:primaryType="nt:unstructured">
+                                    <default
+                                        jcr:primaryType="nt:unstructured"
+                                        offset="0"
+                                        width="6"/>
+                                </cq:responsive>
+                            </teaser>
+                            <teaser_1953434373
+                                cq:styleIds="[1602310388257]"
+                                jcr:created="{Date}2020-10-10T17:41:03.489+11:00"
+                                jcr:createdBy="admin"
+                                jcr:description="&lt;p>12.21.20&lt;/p>&#xd;&#xa;&lt;p>You will look at solo guitar playing in a whole new light with guitar player Brawn.&lt;/p>&#xd;&#xa;"
+                                jcr:lastModified="{Date}2020-10-10T20:44:10.269+11:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Smooth Guitar"
+                                sling:resourceType="wkndmuzik/components/teaser"
+                                actionsEnabled="false"
+                                descriptionFromPage="false"
+                                fileReference="/content/dam/wkndmuzik/Summertime_Young_female_musici.png"
+                                textIsRich="true"
+                                titleFromPage="false">
+                                <cq:responsive jcr:primaryType="nt:unstructured">
+                                    <default
+                                        jcr:primaryType="nt:unstructured"
+                                        offset="0"
+                                        width="6"/>
+                                </cq:responsive>
+                            </teaser_1953434373>
+                        </item_1>
+                        <item_2
+                            cq:panelTitle="Upcoming"
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Tab 2"
+                            sling:resourceType="wkndmuzik/components/container"
+                            layout="responsiveGrid">
+                            <teaser
+                                cq:styleIds="[1602310369358]"
+                                jcr:created="{Date}2020-10-10T17:41:31.663+11:00"
+                                jcr:createdBy="admin"
+                                jcr:description="&lt;p>10.1.20&lt;/p>&#xd;&#xa;&lt;p>Dance all night long to these fun and funky electronic beats.&lt;/p>&#xd;&#xa;"
+                                jcr:lastModified="{Date}2020-10-10T20:45:56.825+11:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Fresh Electronic"
+                                sling:resourceType="wkndmuzik/components/teaser"
+                                actionsEnabled="false"
+                                descriptionFromPage="false"
+                                fileReference="/content/dam/wkndmuzik/Summertime_Young_female_musici@2x.png"
+                                textIsRich="true"
+                                titleFromPage="false">
+                                <cq:responsive jcr:primaryType="nt:unstructured">
+                                    <default
+                                        jcr:primaryType="nt:unstructured"
+                                        offset="0"
+                                        width="6"/>
+                                </cq:responsive>
+                            </teaser>
+                            <teaser_8171204
+                                cq:styleIds="[1602310388257]"
+                                jcr:created="{Date}2020-10-10T17:41:35.557+11:00"
+                                jcr:createdBy="admin"
+                                jcr:description="&lt;p>12.21.20&lt;/p>&#xd;&#xa;&lt;p>Funky soul with ska, what?! This will be unlike any show you’ve ever seen.&lt;/p>&#xd;&#xa;"
+                                jcr:lastModified="{Date}2020-10-10T20:46:24.861+11:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Funky Soul"
+                                sling:resourceType="wkndmuzik/components/teaser"
+                                actionsEnabled="false"
+                                descriptionFromPage="false"
+                                fileReference="/content/dam/wkndmuzik/Young_caucasian_musicians_band.png"
+                                textIsRich="true"
+                                titleFromPage="false">
+                                <cq:responsive jcr:primaryType="nt:unstructured">
+                                    <default
+                                        jcr:primaryType="nt:unstructured"
+                                        offset="0"
+                                        width="6"/>
+                                </cq:responsive>
+                            </teaser_8171204>
+                        </item_2>
+                    </tabs>
+                    <title_930704752
+                        jcr:created="{Date}2020-10-10T20:49:02.094+11:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2020-10-10T20:49:07.605+11:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Watch last year’s highlights"
+                        sling:resourceType="wkndmuzik/components/title"
+                        type="h2"/>
+                    <embed
+                        jcr:created="{Date}2020-10-10T20:49:18.548+11:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2020-10-10T20:52:52.843+11:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wkndmuzik/components/embed"
+                        embeddableResourceType="core/wcm/components/embed/v1/embed/embeddable/youtube"
+                        type="embeddable"
+                        youtubeHeight="541"
+                        youtubeVideoId="BubwLnPcQjc"
+                        youtubeWidth="1019"/>
+                </container>
+                <separator
+                    cq:styleIds="[1602328474156]"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wkndmuzik/components/separator"/>
+            </container>
+        </root>
+    </jcr:content>
+    <thankyou/>
+</jcr:root>
