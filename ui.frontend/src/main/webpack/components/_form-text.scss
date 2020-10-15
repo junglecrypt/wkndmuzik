@@ -14,19 +14,32 @@
   background-color: transparent;
   color: #FFFFFF;
 }
+input:focus{
+  outline: none !important;
+  border: 1px solid #4965EE;
+}
+
 .cmp-form-text__text {
-  border-radius: 6px;
+  border-radius: 4px;
   margin-bottom: 24px;
   width: 65%;
 }
 
-.cmp-form-text-errormessage{
+.error-message{
   border-color: #FB2657;
-  background-image: url(http://localhost:4502/content/experience-fragments/wkndmuzik/us/en/site/footer/master/_jcr_content/root/container/image.coreimg.svg/1602648758682/instagram.svg);
+  background-image: url('../resources/images/Icon-Warning.svg');
   background-repeat: no-repeat;
   background-position-x: 255px;
   background-position-y: 6px;
 }
-.cmp-form-text-errormessage:focus{
+.error-message{
   border-color: #FB2657;
+}
+
+.constraint-message{
+  margin-top: -24px;
+  margin-bottom: 24px;
+  font-size: 12px;
+  line-height: 15px;
+  color: #FB2657
 }
