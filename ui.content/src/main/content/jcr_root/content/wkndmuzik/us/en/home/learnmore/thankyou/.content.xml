@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2020-10-12T17:03:01.977+11:00"
+        cq:lastModified="{Date}2020-10-15T12:15:12.319+11:00"
         cq:lastModifiedBy="admin"
         cq:template="/conf/wkndmuzik/settings/wcm/templates/page-content"
         jcr:primaryType="cq:PageContent"
@@ -70,12 +70,12 @@
                             text="&lt;p>Bookmark your favorite artists and we will notify you of when their next show is.&lt;/p>&#xd;&#xa;"
                             textIsRich="true"/>
                         <button
-                            jcr:lastModified="{Date}2020-10-12T14:07:59.504+11:00"
+                            jcr:lastModified="{Date}2020-10-15T12:10:14.153+11:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             jcr:title="Go to dashboard"
                             sling:resourceType="wkndmuzik/components/button"
-                            link="/content/wkndmuzik/us/en"/>
+                            link="/content/wkndmuzik/us/en/home"/>
                     </heroimage>
                 </container>
             </container>

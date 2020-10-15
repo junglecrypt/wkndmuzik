@@ -4,7 +4,7 @@
     <jcr:content
         cq:contextHubPath="/etc/cloudsettings/default/contexthub"
         cq:contextHubSegmentsPath="/etc/segmentation/contexthub"
-        cq:lastModified="{Date}2020-10-13T21:39:03.378+11:00"
+        cq:lastModified="{Date}2020-10-15T12:06:30.872+11:00"
         cq:lastModifiedBy="admin"
         cq:template="/conf/wkndmuzik/settings/wcm/templates/homepage"
         jcr:primaryType="cq:PageContent"

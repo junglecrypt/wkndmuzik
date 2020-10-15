@@ -4,7 +4,7 @@
     <jcr:content
         cq:contextHubPath="/etc/cloudsettings/default/contexthub"
         cq:contextHubSegmentsPath="/etc/segmentation/contexthub"
-        cq:lastModified="{Date}2020-10-13T10:49:55.370+11:00"
+        cq:lastModified="{Date}2020-10-15T13:52:13.281+11:00"
         cq:lastModifiedBy="admin"
         cq:template="/conf/wkndmuzik/settings/wcm/templates/page-content"
         jcr:isCheckedOut="{Boolean}true"
@@ -54,13 +54,13 @@
                     <container
                         jcr:created="{Date}2020-10-10T23:16:07.873+11:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2020-10-12T15:31:06.830+11:00"
+                        jcr:lastModified="{Date}2020-10-15T13:52:13.277+11:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="wkndmuzik/components/form/container"
                         action="/content/usergenerated/wkndmuzik/us/en/category/memberships/cq-gen1602332167910/"
                         actionType="foundation/components/form/actions/store"
-                        redirect="/content/wkndmuzik/us/en/learnmore/thankyou">
+                        redirect="/content/wkndmuzik/ca/fr/home/learnmore/thankyou">
                         <options
                             jcr:created="{Date}2020-10-10T23:18:46.723+11:00"
                             jcr:createdBy="admin"
