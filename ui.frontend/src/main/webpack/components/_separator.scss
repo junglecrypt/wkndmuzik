@@ -1,2 +1,34 @@
+.space{
+  &_4{
+    height: 4px;
+    .cmp-separator__horizontal-rule {
+      display: none;
+    }
+  }
+  &_8{
+    height: 8px;
+    .cmp-separator__horizontal-rule {
+      display: none;
+    }
+  }
+  &_16{
+    height: 16px;
+    .cmp-separator__horizontal-rule {
+      display: none;
+    }
+  }
+  &_32{
+    height: 32px;
+    .cmp-separator__horizontal-rule {
+      display: none;
+    }
+  }
+  &_64{
+    height: 64px;
+    .cmp-separator__horizontal-rule {
+      display: none;
+    }
+  }
+}
 .cmp-separator {}
 .cmp-separator__horizontal-rule {}

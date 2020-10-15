@@ -1,18 +1,24 @@
 
 //== Font
 
-$font-family:           "Helvetica Neue", Helvetica, Arial, sans-serif;
-$font-size:             16px;
-$font-height:           1.5;
+$font-family:           Montserrat;
+$font-size:             15px;
+$font-height:           1.625;
 
 //== Color
 
 // Normal mode
-$color-foreground:      #202020;
-$color-background:      #ECECEC;
-$color-link:            #2020E0;
+$color-foreground:      #FFFFFF;
+$color-background:      #0E0F13;
+$color-link:            #FFFFFF;
+
 
 // Dark mode
 $color-foreground-dark: invert($color-foreground);
 $color-background-dark: invert($color-background);
 $color-link-dark:       invert($color-link);
+
+//layout width
+$layout-width:          1280px;
+$body-margin:           0px;
+$hero-image-height:     631px;

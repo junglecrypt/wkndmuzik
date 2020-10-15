@@ -1,7 +1,17 @@
 .cmp-carousel {}
 .cmp-carousel__content {}
-.cmp-carousel__item {}
-.cmp-carousel__actions {}
+.cmp-carousel__item {
+  .cmp-image{
+    height :$hero-image-height;
+    .heroimage{
+      height: $hero-image-height;
+      background-size: cover;
+    }
+  }
+}
+.cmp-carousel__actions {
+  display: none;
+}
 .cmp-carousel__action {}
 .cmp-carousel__action--disabled {}
 .cmp-carousel__action--previous {}
@@ -10,5 +20,20 @@
 .cmp-carousel__action--play {}
 .cmp-carousel__action-icon {}
 .cmp-carousel__action-text {}
-.cmp-carousel__indicators {}
-.cmp-carousel__indicator {}
+.cmp-carousel__indicators {
+  display: block;
+  position: absolute;
+  top: 50%;
+}
+.cmp-carousel__indicator {
+  width:  6px;
+  height: 6px;
+  margin: 16px 38px;
+  background-color: rgba(255, 255, 255, .5);
+  &--active {
+    width:  10px;
+    height: 10px;
+    margin: 16px 36px;
+    background-color: rgba(255, 255, 255, .8);
+  }
+}

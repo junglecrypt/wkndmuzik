@@ -1,0 +1,15 @@
+<sly data-sly-use.image="com.adobe.cq.wcm.core.components.models.Image">
+<div class="heroimage" style="background-image: url('${(properties.fileReference) ? image.src : '' @ context='uri'}');">
+	<div class="container cq-dd-image">
+		<div class="muzik-HeroImage-wrapper">
+			<div
+				data-sly-resource="${ 'heroheading' @ resourceType='/apps/wkndmuzik/components/title', decorationTagName='div'}"></div>
+			<div
+				data-sly-resource="${ 'herotext' @ resourceType='/apps/wkndmuzik/components/text', decorationTagName='div'}"></div>
+			<div
+				data-sly-resource="${ 'button' @ resourceType='/apps/wkndmuzik/components/button', decorationTagName='div', cssClassName='button'}"></div>
+		</div>
+	</div>
+</div>
+</sly>
+

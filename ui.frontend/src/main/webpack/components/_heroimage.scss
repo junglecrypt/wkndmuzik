@@ -1,0 +1,43 @@
+.heroimage{
+  height: $hero-image-height;
+  background-size: cover;
+.cq-dd-image {
+  width: 985px;
+  margin: auto;
+  .muzik-HeroImage-wrapper{
+    position: relative;
+    top: 216px;
+    width: 490px;
+    //left: 138px;
+    .cmp-title__text {
+      margin: 0px;
+    }
+    .cmp-text{
+      padding-top: 40px;
+      padding-bottom: 24px;
+    }
+    .button{
+      a{
+        &.cmp-button {
+          padding: 10px 25px;
+        }
+      }
+    }
+    .cmp-button__text{
+      font-size: 14px;
+      line-height: 18px;
+      letter-spacing: 2.8px;
+      font-weight: bold;
+    }
+  }
+}
+}
+.right-align{
+  &.heroimage{
+  .cq-dd-image {
+    .muzik-HeroImage-wrapper{
+      float: right;
+    }
+  }
+  }
+}
