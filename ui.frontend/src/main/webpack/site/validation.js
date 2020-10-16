@@ -11,11 +11,12 @@ function validateElement(event) {
     var errormessage = document.createElement("div");
     errormessage.classList.add('constraint-message');
     errormessage.setAttribute("id","constraintmsg");
-    event.classList.add('error-message');
     if (event.validity.valueMissing){
+      event.classList.add('error-message');
       errormessage.appendChild(document.createTextNode(eventparent.getAttribute('data-cmp-required-message')));
     }
     if (event.validity.typeMismatch){
+      event.classList.add('error-message');
       errormessage.appendChild(document.createTextNode(eventparent.getAttribute('data-cmp-constraint-message')));
    }
      eventparent.appendChild(errormessage);
