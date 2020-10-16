@@ -91,7 +91,7 @@
                         sling:resourceType="wkndmuzik/components/teaser"
                         actionsEnabled="true"
                         descriptionFromPage="false"
-                        pretitle="Sign Up"
+                        pretitle="Tier 2"
                         textIsRich="true"
                         titleFromPage="false">
                         <cq:responsive jcr:primaryType="nt:unstructured">

@@ -2,6 +2,7 @@
   label{
     display: block;
     font-size: 14px;
+    font-weight: bold;
     line-height: 18px;
     letter-spacing: 2.8px;
     margin-bottom: 32px;
@@ -34,9 +35,6 @@ input:focus{
   background-repeat: no-repeat;
   background-position-x: 255px;
   background-position-y: 15px;
-}
-.error-message{
-  border-color: #FB2657;
 }
 
 .constraint-message{

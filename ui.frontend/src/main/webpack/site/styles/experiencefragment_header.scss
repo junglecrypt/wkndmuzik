@@ -13,21 +13,12 @@ header.experiencefragment {
         @media (prefers-color-scheme: dark) {
             color: $color-foreground-dark;
         }
-        &:hover,
-        &:focus {
-            color: $color-link;
-            text-decoration: underline;
-            @media (prefers-color-scheme: dark) {
-                color: $color-link-dark;
-            }
-        }
     }
 
     //== Grid layout
 
     .cmp-container {
         display: grid;
-      //  grid-template-columns:  221px auto 152px 41px 54px;
         grid-template-columns: 6fr 18fr 150px 0.9fr 1.2fr;
         padding: 20px 0 0 0;
         z-index: 1;
@@ -65,7 +56,7 @@ header.experiencefragment {
     .cmp-navigation__item-link {
         display: block;
     }
-    .cmp-navigation__item--active > .cmp-navigation__item-link {
+    .cmp-navigation__item > .cmp-navigation__item-link {
         font-weight: bold;
     }
 
