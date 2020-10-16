@@ -3,5 +3,6 @@
     <filter root="/conf/wkndmuzik" mode="merge"/>
     <filter root="/content/wkndmuzik" mode="merge"/>
     <filter root="/content/dam/wkndmuzik" mode="merge"/>
+    <filter root="/content/usergenerated/wkndmuzik" mode="merge"/>
     <filter root="/content/experience-fragments/wkndmuzik" mode="merge"/>
 </workspaceFilter>
