@@ -13,6 +13,7 @@
         jcr:primaryType="cq:PageContent"
         jcr:title="de"
         sling:resourceType="wkndmuzik/components/page"
+        navTitle="DE-DE"
         pageTitle="WKND Muzik">
         <root
             cq:lastRolledout="{Date}2020-10-12T17:50:18.711+11:00"
