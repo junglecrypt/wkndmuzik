@@ -1,6 +1,10 @@
 # WKNDMuzik AEM project 
 
-This is a demo project for AEM-based applications. It is intended as a best-practice set of examples as well as a potential starting point to develop your own functionality.
+This is a WKNDMuzik project for AEM-based applications. It is intended as a best-practice demostartion as well as a potential starting point.
+Home page  path /content/wkndmuzik/us/en/home
+Learn more path /content/wkndmuzik/us/en/home/learnmore
+Sign Up    path /content/wkndmuzik/us/en/home/category/memberships
+Thankyou   path /content/wkndmuzik/us/en/home/category/memberships/thankyou
 
 ## Modules
 
